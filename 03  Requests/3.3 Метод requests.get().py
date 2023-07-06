@@ -107,7 +107,7 @@ import requests
 
 # url = 'http://httpbin.org/ip'
 #
-# with open('03  Requests/proxy.txt') as file:
+# with open('03 Requests/proxy.txt') as file:
 #     proxy_file = file.read().split('\n')
 #     for _ in range(1000):
 #         try:
@@ -126,7 +126,7 @@ url = 'http://httpbin.org/ip'
 proxies = []
 amount_of_proxies = 10
 
-with open('03  Requests/proxy.txt') as file:
+with open('03 Requests/proxy.txt') as file:
     proxy_file = file.read().split('\n')
     while len(proxies) < amount_of_proxies and len(proxy_file) > 0:
         try:
